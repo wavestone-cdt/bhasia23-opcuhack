@@ -54,6 +54,5 @@ List all the nodes
 ### WRITE_DATA#02
 This one is a little bit more complex! Several steps are involved, one of which is exploiting dynamic tags
 
-```./opcua_scan.py write_data -t 'opc.tcp://192.168.0.20:49320' -r 'ns=2;s=ModbusPLC-10-3-0-150.Device2.XXXX' -a Use
-rname -u XXX -p XXX -d True```
+```./opcua_scan.py write_data -t 'opc.tcp://192.168.0.20:49320' -r 'ns=2;s=ModbusPLC-10-3-0-150.Device2.XXXX' -a Username -u XXX -p XXX -d True```
 
